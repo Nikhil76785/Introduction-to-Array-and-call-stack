@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>Arrays In JavaScript</h1>
+        <p>An Array is a number of values stored in the same variable.<br>Example:</p>
+        <p id="rl"></p>
+        <p id="rl2"></p>
+
+        <script>
+            var roc = ["Car, ", "Wheel, ", "Engine "];
+            document.getElementById("rl").innerHTML = roc[0] + roc[1] + roc[2]
+
+            var fruit = ["Pineapple, ", "Strawberry, ", "Mango "];
+            document.getElementById("rl2").innerHTML = fruit[0] + fruit[1] + fruit[2]
+        </script>
+    </body>
+</html>
