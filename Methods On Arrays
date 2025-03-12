@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <h1>Arrays In JavaScript</h1>
+        <p>The join() method joins array elements into a single string and the pop() method removes the last element from the array</p>
+        <p id="myjoin"></p>
+        <p id="pop1"></p>
+        <p id="pop2"></p>
+        <p id="myjoin2"></p>
+        <p id="pop12"></p>
+        <p id="pop22"></p>
+        <script>
+            var roc = ["Car ", "Wheel ", "Engine "];
+            document.getElementById("myjoin").innerHTML = roc.join(" * ");
+            document.getElementById("pop1").innerHTML = roc;
+            roc.pop();
+            document.getElementById("pop2").innerHTML = roc;
+
+            var fruit = ["Pineapple, ", "Strawberry, ", "Mango "];
+                document.getElementById("myjoin2").innerHTML = fruit.join(" and ");
+                document.getElementById("pop12").innerHTML = fruit;
+                fruit.pop();
+                document.getElementById("pop22").innerHTML = fruit;
+
+        </script>
+    </body>
+</html>
