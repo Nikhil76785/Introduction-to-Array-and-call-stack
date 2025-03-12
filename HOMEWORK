@@ -1,13 +1,15 @@
 <html>
     <body>
-        <h1>ARRAYS AND STUFF</h1>
+        <h1>ARRAYS AND OBJECTS</h1>
         <p id="q"></p><br>
         <p id="w"></p>
         <p id="e"></p>
         <p id="r"></p>
+        <p id="demo"></p>
+    
 
         <script>
-            var rocket = ["Rocket ", "Space ", "Thrusters "];
+            var rocket = ["Rockets ", "Space ", "Thrusters "];
             document.getElementById("q").innerHTML = rocket[0] + rocket[1] + rocket[2];
 
             document.getElementById("w").innerHTML = rocket.join(" * ")
@@ -16,6 +18,14 @@
             rocket.pop();
 
             document.getElementById("r").innerHTML = rocket;
+
+            var nikhil = {
+                    name: "Nikhil",
+                    age: "11",
+                };
+
+                
+                document.getElementById("demo").innerHTML = "I am " + nikhil.name + ". I am " + nikhil.age + " years old. " + "I like " + rocket[0] + rocket[1];
         </script>
     </body>
 </html>
